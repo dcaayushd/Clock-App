@@ -12,4 +12,3 @@ I've designed a nice clean analog clock app UI by using flutter. This clock supp
 
 ![Preview](/intro.gif)
 ![Preview](/ui.png)
-# Clock-App
