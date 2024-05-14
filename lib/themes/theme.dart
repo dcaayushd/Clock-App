@@ -12,7 +12,7 @@ ThemeData themeData(BuildContext context) {
     scaffoldBackgroundColor: Colors.white,
     colorScheme: const ColorScheme.light(
       secondary: kSecondaryLightColor,
-      background: Colors.white,
+      surface: Colors.white,
       // on light theme surface = Colors.white by default
     ),
     // backgroundColor: Colors.white,
@@ -41,7 +41,6 @@ ThemeData darkThemeData(BuildContext context) {
     colorScheme: const ColorScheme.light(
       secondary: kSecondaryDarkColor,
       surface: kSurfaceDarkColor,
-      background: kBackgroundDarkColor,
     ),
     iconTheme: const IconThemeData(color: kBodyTextColorDark),
     floatingActionButtonTheme: const FloatingActionButtonThemeData(
